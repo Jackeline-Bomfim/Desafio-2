@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio DIO - Website simples</title>
+</head>
+<header>
+    <h1><font color="blue">O que eu aprendi até agora sobre desenvolvimento Web!</font></h1><hr>
+    <p id="header">
+        <i>16 de outubro de 2022.</i>
+    </p>
+</header>
+
+<body>
+<h2>Índice</h2>
+<ol>
+    <li><strong>História da web</strong></li>
+    <ul>
+        <li>Primeiros computadores</li>
+        <li>Como surgiu</li>
+        <li>Grandes Nomes</li>
+    </ul><br>
+    <li><strong>O que são Clients</strong></li>
+    <ul>
+        <li>Cliente no linguajar Web</li>
+        <li>Navegadores</li>
+        <li>Aplicações Web</li>
+        <li>Dispositivos móveis</li>
+    </ul><br>
+    <li><strong>O que são Servers</strong></li>
+    <ul>
+        <li>Sobre Servidores</li>
+        <li>Hardwares e Softwares em Servidores</li>
+        <li>Tipos de Servidores</li>
+        <li>Hospedagem de Sites</li>
+    </ul><br>
+    <li><strong>Linguagem de Programação</strong></li>
+    <ul>
+        <li>O que é</li>
+        <li>Server-Side</li>
+        <li>Client-Side</li>
+        <li><abbr title="Hypertext Markup Language">HTML</abbr> não é linguagem de Programação</li>
+    </ul><br>
+    <li><strong>Introdução ao HTML na Prática</strong></li>
+    <ul>
+        <li>Ferramentas utilizadas</li>
+        <li>Inspetor de Elementos</li>
+        <li>Estrutura básica do <abbr title="Hypertext Markup Language">HTML</abbr></li>
+        <li>Falando sobre Tags</li>
+        <li>Aributos das Tags</li>
+        <li>Textos</li>
+        <li>Listas ordenadas e não ordenadas</li>
+        <li>links</li>
+    </ul>
+</ol>
+
+<h3 id="number1"><u>História da Web</u></h3>
+<h4>Primeiros Computadores</h4>
+<p>A primeira geração de computadores surgiu em 1944, eles eram enormes ocupavam uma sala inteira e pesavem toneladas. A segunda geração foi entre 1959 a 1965 com o surgimento dos transitores e os computadores ficaram menores e conseguiamos movê-los de uma sala para outra. A terceira geração foi entre 1965 e 1970 com o circuito integrado, sugirndo o transitor, os capacitadores e os resistores.A quarta geração iniciou a partir de 1971 com máquinas menore, o surgimento do Smartphone e do mouse.</p>
+
+<h4>Como surgiu (Internet)</h4>
+<p>Antes do surgimento da internet tinhamos o telégrafo que através de uma sequência pré estabelecida transmitia uma mensagem. Com a guerra fria em 1950 surgiu o ENIAC com a finalidade de computar trajetórias táticas que exigiam conhecimento substancial em matemática com mais agilidade. Com o passar dos anos e devidos as necessidades a primeira semente foi plantada por Joseph Carl Robnett Lickelider, ele teorizou sobre uma rede onde todos poderiam se comunicar através dela. A primeira conexão estabelecida foi feita em 29/10/1969, foi enviado a palavra LOGIN mas foi recepcionado apenas LO, ou seja, a primeira conexão e a primeira queda (perda de conexão) foram no mesmo dia. Após o surgimento do TCP IP em 1989 Tim Berners-Lee viu a oportunidade de unir hipertexto com TCP/IP e criar o world Wide Web mais conhecido como WWW.</p>
+
+<h4>Grandes nomes envolvidos</h4>
+<p>Em toda essa trajetória temos alguns nomes para destacar que contribuiram muito com a evolução da internet:
+</p>
+<ul>
+    <li>Grace Murray Hopper</li>
+    <li>Joseph Carl Robnet Lickelider</li>
+    <li>Robert E. Kahn</li>
+    <li>Tim Berners-Lee</li>
+    <li>Marc Andressen</li>
+    <li>Bill Gates</li>
+    <li>Steves Jobs</li>
+</ul>
+<p>Vale muito a pena pesquisar um pouco sobre cada um deles, ambos tiveram uma participação muito importante na evolução da comunicação. Aproveito aqui para fazer um gancho e deixar uma frase inspiradora de Steve Jobs que eu gosto muito: <blockquote>“A única maneira de fazer um excelente trabalho é amar o que você faz. Se ainda não encontrou, continue procurando.”
+</blockquote></p>
+<p>Continuando<sub>...</sub></p>
+
+<h3 id="number2"><u>O que são Clients</u></h3>
+<h4>Clientes no linguajar Web</h4>
+<p>Quando falamos da internet existe um lado mais próximo do usuário, o usuário atráves do seu dispositivo acessa a internet que através do protocolo HTTP vai até o servidor pega esses dados e reproduz na tela para o usuário. Hoje muito mais que antes, estamos muito preocupados com esse lado, devido aos diversos dispositivos, trazendo vários formatos de telas e tamanhos, temos que trabalhar bem a responsividade e também a compatibilidade com os navegadores, e assim trazermos a informação lá dos servidores e apresentá-las na tela da melhor maneira possível para o usuário.</p>
+
+<h4>Falando sobre navegadores</h4>
+<p>Navegadores são programas criados por empresas que são utilizados para abrir/executar arquivos. Também são chamados de Browsers, são gratuitos e seguem os padrões W3C, porém sempre há uma diferença ou outra de interpretação entre eles.</p>
+<p>Acessessando o site do <a href="https://www.w3schools.com/tags/ref_html_browsersupport.asp
+">w3schools</a> você terá informações sobre os navegadores como por exemplo a compatibilidade deles com determinada linguagem de programação.</p>
+
+<h4>Aplicações Web</h4>
+<p>Aplicações Web são soluções criadas que possuem a internet como meio de comunicação entre Client X Server não sendo necessário a sua instalação. Exemplos: Facebook, Linkedin, etc.
+</p>
+
+<h4>Dispositivos móveis</h4>
+<p>Dispositivos móveis são tecnologias digitais que permitem a mobilidade e o acesso à internet. Pode-se citar como exemplos os smartphones e tablets. Hoje em dia a mior parte de acesso a internet é feita através de um dispositivo móvel.</p>
+
+<h3 id="number3"><u>O que são Servers</u></h3>
+<h4>Sobre Servidores</h4>
+<p>Um servidor é um computador equipado com um ou mais processadores, bancos de memória, portas de comunicação, softwares e, ocasionalmente, algum sistema para armazenamento de dados, como hard disks internos ou memórias SSD. Temos servidores locais, onde só irá acessar o conteúdo pertencendo a rede e temos servidores de internet onde você pode acessar o conteúdo mesmo estando fora da rede.
+</p>
+
+<h4>Sobre hardware e softwares em servidores</h4>
+<p>Um software é um serviço computacional utilizado para realizar ações nos sistemas de computadores. Ou seja: Um software é todo programa presente nos diversos dispositivos (computadores, celulares, televisores, entre outros). Exmeplos:
+    <ul>
+        <li>Sistemas Operacionais</li>
+        <li>Monitoramento</li>
+        <li>Servidores Web</li>
+    </ul>
+Hardware é a parte física do computador, ou seja, o conjunto de aparatos eletrônicos, peças e equipamentos que fazem o computador funcionar. A palavra hardware pode se referir também como o conjunto de equipamentos acoplados em produtos que precisam de algum tipo de processamento computacional. Exemplos:
+<ul>
+    <li>Armazenamento (disco rígidos, SSDs)</li>
+    <li>Memória</li>
+    <li>Processadores</li>
+</ul>
+
+<h4>Tipos de servidores</h4>
+<p>
+Existem vários tipos de servidores, entre eles estão:
+    <ul>
+        <li>Servidor de aruivos</li>
+        <li>Servidor de segurança (Firewall)</li>
+        <li>Servidor de Streaming</li>
+        <li>Servidor de e-mail</li>
+        <li>Servidor Web</li>
+    </ul>
+</p>
+
+<h4>Hospedagem de sites</h4>
+<p>Hospedagem de sites é o processo de usar um servidor para hospedar um site e deixá-lo disponível para qualquer pessoa o acessar. Existem muitos tipos, como, por exemplo, a hospedagem de site compartilhada. Embora muitas provedoras ofereçam pacotes semelhantes, quanto mais popular um site é, mais recursos ele precisa para funcionar com eficiência.</p>
+
+<h3><u>Linguagem de programação</u></h3>
+<h4>O que é?</h4>
+<p>Linguagem de Programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software).
+</p>
+
+<h4>Linguagem Server-Side</h4>
+<p>A linguagem de servidor, ou Server-side scripting, é a linguagem que rodará “por trás dos panos”, fornecendo a lógica principal da aplicação. Exemplos:
+    <ul>
+        <li>PHP</li>
+        <li>JAVA</li>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>Ruby</li>
+    </ul>
+</p>
+
+<h4>Linguagem Client-Side</h4>
+<p>A linguagem de cliente ou client-side scripting, é uma linguagem que é executada no lado cliente, ou seja, no computador do próprio usuário. Exemplos:
+    <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+</p>
+
+<h4>HTML é linguagem de programação?</h4>
+<p>Não, HTML não é uma linguagem de programação e sim um arquivo de marcação. Os textos são delimitados por nomes que o navegador consegue interpretar e cada um destes delimitadores tem uma função e comportamento específico.</p>
+
+<h3><u>Introdução ao HTML na prática</u></h3>
+<h4>Ferramentas utilizadas</h4>
+<p>Temos vários editores de textos que podemos usar, mas optamos por usar o VS Code. Ao clicar no texto abaixo você será direcionado para o site do VS Code.</p>
+<p><a href="https://code.visualstudio.com/" target="_blank">VS Code</a></p>
+
+<h4>Inspetor de Elementos</h4>
+<p>O recurso permite que o usuário visualize os códigos HTML e CSS usados no desenvolvimento de uma página da web e copie esses conteúdos para fazer alterações em ambientes externos</p>
+
+<img width="600px" src="imagem/facebook 1.webp">
+<img width="600px" src="imagem/facebook 2.webp">
+
+<h4>Estrutura básica do HTML</h4>
+<p>O documento HTML sempre inicia com o que chamamos de estrutura básica. Esta estrutura é quase que imutável. Geralmente os editores como o VS Code já tem atalhos para iniciar os documentos HTMLs com essa estrutura (! + Tab)<sup>*</sup>.</p>
+<p>* Atalho usado para criação da estrutura básica.</p>
+
+<img width="600px" src="imagem/estrutura básica html.png">
+
+<h4>Falando sobre Tags</h4>
+<p>As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”. Podem ser dispostas em tags que precisam de fechamento e tags que fecham sozinhas (self-closing). O fechamento de uma tag será definido com uma barra (/), sendo que no caso das tags de auto fechamento, não há necessidade da presença desse caractere.</p>
+<img width="400px" src="imagem/Tags.png">
+
+<h4>Atributos básicos das Tags</h4>
+<p>Atributos HTML são palavras especiais usadas dentro da tag de abertura para controlar o comportamento do elemento. Os atributos HTML são um modificador de um tipo de elemento HTML. Com eles podemos identificar melhor um elemento, informar qual arquivo aquela tag deve utilizar, indicar o tipo de um campo de texto, etc.
+    <ul>
+        <li>id</li>
+        <li>class</li>
+        <li>src</li>
+        <li>alt</li>
+        <li>href</li>
+        <li>lang</li>
+        <li>target</li>
+    </ul>
+A estrutura de um atributo é:
+</p>
+<img src="imagem/atributos.png">
+
+<h4>Façando sobre textos</h4>
+<p>Podemos citar algumas Tags para criação de texto no HTML, como por exemplo as tags de títulos que vão do h1 ao h6, temos a tag p que indica um parágrafo, entre outras.Podemos juntas essas Tags com outras como a tag strong que deixa o texto em negrito, a tag i que deixa o texto em itálico.</p>
+
+<h4>Listas ordenadas e não ordenadas</h4>
+<p>De forma característica esses itens ordenados em uma lista são mostrados com uma contagem que os precede.</p>
+<img width="400px" src="imagem/lista odernada.png">
+
+<p>Uma lista não ordenada é uma lista de itens. As listas de itens são marcadas com bullets (tipicamente pequenos círculos pretos).<del>Abaixo veja o exemplo:</del></p>
+<img src="imagem/lista_não_ordenada.png">
+
+<h4>Links</h4>
+<p>É uma função do HTML que permite inserir os hiperlinks de diversos elemntos, como textos e imagens e também direcionar para outro sites ou páginas do próprio site.</p>
+<img src="imagem/links.png">
+
+<h5>Sites para estudos sobre HTML</h5>
+<p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML: Linguagem de marcação de hipertexto</a></li>
+        <li><a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos">O que é HTML? Guia básico para iniciantes.</a></li>
+    </ul>
+</p>
+
+<h5>Vídeos explicativos sobre HTML</h5>
+<p>
+    <iframe width="460" height="315" src="https://www.youtube.com/embed/o0UZNUuFsvA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p>
+    <iframe width="460" height="315" src="https://www.youtube.com/embed/_fahgk9RjTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p><mark>Fim!</mark></p>
+</body>
+<footer>   
+    <p><small>Desenvolvido por Jackeline Bomfim</small></p>
+
+</footer>
+</html>
